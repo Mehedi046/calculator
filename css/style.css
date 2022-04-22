@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 5px;
+  text-align: center;
+}
+body {
+  background-color:#8479E1;
+}
+.calculator {
+  width: 350px;
+  height: 450px;
+  background-color: black ;
+  box-shadow: 0px 0px 0px 10px #666;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+#display {
+
+  width: 320px;
+  height: 50px;
+  text-align: right;
+  background-color: black;
+  border: 3px solid white;
+  font-size: 18px;
+  left: 2px;
+  top: 2px;
+  color: #7fff00;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+.btnTop{
+  color: white;
+  background-color: #6f6f6f;
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+}
+.btnNum {
+  color: white;
+  background-color: black;
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+}
+.btnMath {
+  color: white;
+  background-color: #ff4561;
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+}
+.btnOpps {
+  color: white;
+  background-color: #ff9933;
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+}
+.calc{
+  margin: 350px !important;
+  padding: 50px;
+  height: 100vh;
+}
+.cal-tex{
+  color: white ;
+  margin-bottom: -20px;
+
+}
+.text-left{
+   margin-top: -36px;
+    margin-left: -18px;
+    line-height: 23px;
+}
+.text-right{
+  width: 89px;
+  height: 24px;
+  background: white;
+  margin-left: 100px;
+  margin-top: -20px;
+}
+.text-right:hover{
+  background: chocolate;
+  text: full charge;
+
+}
+.chrg{
+  opacity: 0;
+  color: black;
+}
+.chrg:hover{
+  opacity: 1;
+  font-weight: bold;
+  
+}
